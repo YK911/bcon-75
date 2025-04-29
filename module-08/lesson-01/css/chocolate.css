@@ -1,0 +1,133 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+[class*="section"],
+.footer {
+  padding: 80px 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.section-1 {
+  min-height: 620px;
+  background-image: url("../img/start-page.png");
+}
+.section-2 {
+  min-height: 752px;
+  background-image: url("../img/benefits.png");
+}
+.section-3 {
+  min-height: 1244px;
+  background-image: url("../img/ingridients.png");
+}
+.section-4 {
+  min-height: 1032px;
+  background-image: url("../img/made.png");
+}
+.section-5 {
+  min-height: 3192px;
+  background-image: url("../img/products.png");
+}
+.section-6 {
+  min-height: 592px;
+  background-image: url("../img/top-sellers.png");
+}
+.section-7 {
+  min-height: 371px;
+  background-image: url("../img/reviews.png");
+}
+.footer {
+  min-height: 489px;
+  background-image: url("../img/footer.png");
+}
+
+/* #region Header */
+.header {
+  padding: 17px 0;
+}
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+/* #endregion */
+
+/* #region Mobile menu */
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+
+  display: flex;
+  flex-direction: column;
+  width: 100dvw;
+  height: 100dvh;
+  padding: 136px 20px 20px;
+  background: #1e1823;
+
+  transform: translateX(100%);
+  transition: 150ms ease-in;
+}
+.mobile-menu.is-open {
+  transform: translateX(0);
+}
+.mobile-menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+:where(.mobile-menu > .mobile-menu-btn) {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.mobile-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: -0.28px;
+}
+.mobile-menu-socials {
+  margin-top: auto;
+
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+/* #endregion */
