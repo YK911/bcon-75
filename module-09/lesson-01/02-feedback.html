@@ -9,21 +9,28 @@
     <link rel="stylesheet" href="css/feedback.css" />
   </head>
   <body>
+    <header class="header">
+      <input class="toggler js-toggler" type="checkbox" name="themeSwitcher" checked>
+    </header>
     <p><a href="index.html">Go back</a></p>
 
-    <form class="feedback-form">
+
+    <form class="feedback-form" name="feedbackForm">
       <label>
         <b>Name</b>
         <input
           type="text"
           name="name"
           placeholder="Enter your name"
-          value="Anonymous"
         />
       </label>
       <label>
         <b>Email</b>
         <input type="email" name="email" placeholder="Enter your email" />
+      </label>
+      <label>
+        <b>Password</b>
+        <input type="password" name="password" />
       </label>
       <label>
         <b>Message</b>
@@ -32,6 +39,12 @@
       <button type="submit">Submit</button>
     </form>
 
-    <script src="js/02-feedback.js" type="module"></script>
+    <!-- <form name="subscription">
+      <input type="email" name="" id="">
+      <button type="submit">Subscribe</button>
+    </form> -->
+
+    <!-- <script src="js/02-feedback.js" type="module"></script> -->
+    <script src="js/feedback-pro.js" type="module"></script>
   </body>
 </html>

@@ -1,0 +1,10 @@
+:root {
+    /* Світла тема */
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-primary: #007bff;
+  --color-secondary: #ffffff;
+  --color-border: #e0e0e0;
+  --color-card: #f8f9fa;
+
+}
