@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: sans-serif;
+}
+
+.page-title {
+  max-width: 560px;
+  min-height: 60px;
+  padding: 20px;
+  margin: 0 auto 24px;
+  text-align: center;
+  letter-spacing: 0.3em;
+  border-radius: 16px;
+  border: 1px solid rebeccapurple;
+}
+.page-field {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 560px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid rebeccapurple;
+  border-radius: 16px;
+}
+.page-label {
+}
+.page-input {
+  min-height: 32px;
+  padding: 8px 16px;
+  outline: transparent;
+  border: 1px solid rebeccapurple;
+  border-radius: 8px;
+  box-shadow: 0 0  0 4px rgba(102, 51, 153, 0.25);
+}

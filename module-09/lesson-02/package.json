@@ -1,0 +1,24 @@
+{
+  "name": "bcon-test",
+  "version": "0.0.1",
+  "description": "BootCamp online description for project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "test": "test"
+  },
+  "keywords": [
+    "bundler",
+    "bootcamp",
+    "javascript"
+  ],
+  "author": "YK",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.87.0",
+    "vite": "^6.3.4"
+  },
+  "dependencies": {
+    "basiclightbox": "^5.0.4"
+  }
+}
